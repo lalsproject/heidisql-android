@@ -76,7 +76,7 @@ dependencies {
     implementation("androidx.compose.material:material-icons-core")
 
     // Database drivers. MySQL & MariaDB servers both speak to the MariaDB connector.
-    implementation("org.mariadb.jdbc:mariadb-java-client:2.7.12")
+    implementation("org.mariadb.jdbc:mariadb-java-client:3.4.1")
     implementation("org.postgresql:postgresql:42.2.27.jre7")
     // SSH tunnel (replacement for HeidiSQL's plink.exe)
     implementation("com.github.mwiede:jsch:0.2.18")

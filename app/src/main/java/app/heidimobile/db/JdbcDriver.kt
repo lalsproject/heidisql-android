@@ -36,6 +36,7 @@ class JdbcDriver(
             if (session.useSsl) {
                 props["useSsl"] = "true"
                 props["trustServerCertificate"] = "true"
+                props["sslMode"] = "trust"
             }
         } else {
             Class.forName("org.postgresql.Driver")
