@@ -1,0 +1,6 @@
+{
+  "name": "Heidi Mobile",
+  "description": "Mobile SQL client for MySQL, MariaDB, PostgreSQL, and SQLite with SSH tunneling",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -26,10 +26,13 @@ import app.heidimobile.ui.EditScreen
 import app.heidimobile.ui.ErrorDialog
 import app.heidimobile.ui.SessionsScreen
 
+import androidx.activity.enableEdgeToEdge
+
 class MainActivity : ComponentActivity() {
     private val vm: AppViewModel by viewModels()
 
     override fun onCreate(savedInstanceState: Bundle?) {
+        enableEdgeToEdge()
         super.onCreate(savedInstanceState)
         setContent { HeidiTheme { Root(vm) } }
     }
